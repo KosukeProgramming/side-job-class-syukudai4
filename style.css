@@ -1,0 +1,179 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: 'Times New Roman',sans-serif;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* 以上リセットCSS */
+
+.contact__inner {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+.contact__title {
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact__description {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+select {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+input, textarea {
+    display: block;
+    appearance: none;
+    width: 95%;
+    margin-bottom: 15px;
+    border: 1px solid #111111;
+}
+textarea {
+    margin-bottom: 30px;
+}
+input[type='select'] {
+    width: 100%;
+}
+input[type='textarea'] {
+    height: 7em;
+}
+.must {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #ff5252;
+    padding: 3px 5px;
+    margin-left: 10px;
+}
+.contact__btn {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
+    color: #ffffff;
+    border: none;
+    border-radius: 100vh;
+    padding: 10px 0;
+    margin-bottom: 40px;
+    background-color: #ff5252;
+}
+.anotation {
+    font-size: 14px;
+    line-height: 1.5;
+}
+@media screen and (max-width:600px) {
+    .contact__description {
+        text-align: left;
+        /* display: none; */
+    }
+}

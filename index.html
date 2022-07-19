@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせフォーム</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="contact">
+        <div class="contact__inner">
+            <h2 class="contact__title">お問い合せ</h2>
+            <p class="contact__description">お問合せ内容を確認後、2営業日以内に担当者よりご連絡いたします。<br>
+            フォームに必要事項を入力のうえ、「送信する」ボタンをクリックしてください。</p>
+            <form action="#" class="contact__form" method="post">
+                <label for="content" class="label">お問合せ内容<span class="must">必須</span></label>
+                <select name="content" id="content">
+                    <option value="テスト１">テスト１</option>
+                    <option value="テスト2">テスト2</option>
+                    <option value="テスト3">テスト3</option>
+                    <option value="テスト4">テスト4</option>
+                    <option value="テスト5">テスト5</option>
+                    <option value="テスト6">テスト6</option>
+                    <option value="テスト7">テスト7</option>
+                    <option value="テスト8">テスト8</option>
+                    <option value="テスト9">テスト9</option>
+                </select>
+                <label for="name" class="label">お名前<span class="must">必須</span></label>
+                <input type="text" id="name">
+                <label for="company" class="label">会社<span class="must">必須</span></label>
+                <input type="text" id="company">
+                <label for="email" class="label">メールアドレス<span class="must">必須</span></label>
+                <input type="email" id="email">
+                <label for="tel" class="label">電話番号<span class="must">必須</span></label>
+                <input type="tel" id="tel">
+                <label for="detail" class="label">お問合せ詳細<span class="must">必須</span></label>
+                <textarea name="" id="detail" cols="30" rows="10"></textarea>
+
+                <button class="contact__btn">送信する</button>
+            </form>
+            <small class="anotation">「個人情報の取扱いについて」をお読みいただき、同意のうえお問い合わせください。<br>
+            ※フォームが表示されない場合広告ブロックを解除、もしくは<a href="#">ホームページ</a>よりお問合せください。</small>
+        </div>
+    </section>
+</body>
+</html>
